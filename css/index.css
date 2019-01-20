@@ -1,0 +1,57 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: white;
+}
+div {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 2em;
+}
+h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 600;
+    font-family: 'Avenir Next', 'Open Sans', sans-serif;
+}
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em 15px;
+    display: table;
+}
+nav li {
+    display: inline-block;
+    border-radius: 1em;
+}
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px 12px;
+    font-weight: 400;
+}
+nav a span {
+    padding-top: 4px;
+}
+nav a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 1em;
+}
+nav li:active {
+    color: white;
+    background:black;
+}
+.avatar {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 0px solid white;
+}
