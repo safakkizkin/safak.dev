@@ -22,7 +22,7 @@ h1 {
     font-size: 2.5em;
     line-height: 1em;
     font-weight: lighter;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
 }
 nav ul {
@@ -53,7 +53,6 @@ nav a:hover{
 }
 nav li:active {
     color: white;
-    background:black;
 }
 #avatar {
     margin-top: -35px;
