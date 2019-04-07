@@ -3,13 +3,15 @@
     margin: 0;
     padding: 0;
 }
+
 html, body {
     font-family: 'Open Sans', sans-serif;
     display: table;
     height: 100%;
     width: 100%;
     text-align: center;
-    background: white;
+    background: black;
+    color: rgb(200, 200, 200);
 }
 div {
     display: table-cell;
@@ -35,10 +37,10 @@ nav li {
     border-radius: 3px;
 }
 nav a {
-    margin: 0px 5px 0px 5px;
+    margin: 0px 5px;
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: rgb(200, 200, 200);
     padding: 10px;
     font-weight: lighter;
     font-size: 20px;
@@ -48,7 +50,8 @@ nav a span {
     padding-top: 4px;
 }
 nav a:hover{
-    background-color: rgba(200, 200, 200, 1);
+    background-color: rgb(200, 200, 200);
+    color: black;
     border-radius: 3px;
 }
 nav li:active {
@@ -63,5 +66,5 @@ nav li:active {
     transition: .25s;
 }
 #avatar:hover {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 20px rgb(200, 200, 200);
 }
