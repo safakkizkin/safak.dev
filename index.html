@@ -18,7 +18,8 @@
             newlink.setAttribute("rel", "stylesheet");
             newlink.setAttribute("type", "text/css");
 
-            if(new Date().getHours() >= 20) {
+            var theExactHour = new Date().dateNow.getHours()
+            if(theExactHour >= 20 || theExactHour <= 7) {
                 newlink.setAttribute("href", "css/darkOne.css");
             } else{
                 newlink.setAttribute("href", "css/brightOne.css");
