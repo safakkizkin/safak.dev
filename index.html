@@ -5,35 +5,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Şafak Kızkın</title>
-        <link href="css/brightOne.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans:400,600" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png" /> <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png" />
     </head>
-    <script>
-        var hour = new Date().getHours();
-        function checkTime(){
-            var oldlink = document.getElementsByTagName("link").item(0);
-            var newlink = document.createElement("link");
-            newlink.setAttribute("rel", "stylesheet");
-            newlink.setAttribute("type", "text/css");
-
-            var theExactHour = new Date().getHours();
-            if(theExactHour >= 20 || theExactHour <= 7) {
-                newlink.setAttribute("href", "css/darkOne.css");
-            } else{
-                newlink.setAttribute("href", "css/brightOne.css");
-            }
-            if(oldlink.href !== newlink.href) {
-                document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
-            }
-            setTimeout(checkTime, 60000);
-        }
-
-        window.onload = function() {
-            setTimeout(checkTime, 0);
-        }
-    </script>
     <body style="background-color: 'black'">
         <div>
             <img id="avatar" src="image/safakkizkin.jpg" alt="Profile picture of Safak Kizkin">
